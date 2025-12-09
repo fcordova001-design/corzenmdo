@@ -1,0 +1,203 @@
+/* ===========================
+   COLORES PRINCIPALES
+   Dorado: #C9A227
+   Azul Pumas: #002D62
+   =========================== */
+:root {
+  --dorado: #C9A227;
+  --azul: #002D62;
+  --azul-oscuro: #001B3A;
+  --gris-suave: #f2f2f2;
+}
+
+/* ======== GENERAL ======== */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: var(--gris-suave);
+  color: #222;
+}
+
+/* Banner */
+#banner {
+  background: var(--dorado) !important;
+  color: #000;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+/* Navbar */
+.navbar {
+  background-color: var(--azul) !important;
+}
+
+.navbar-brand span,
+.nav-link {
+  color: white !important;
+  font-weight: 500;
+}
+
+.nav-link:hover {
+  color: var(--dorado) !important;
+}
+
+/* Carrusel */
+.carousel-caption h5 {
+  background: rgba(0,0,0,0.5);
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.carousel-caption p {
+  background: rgba(0,0,0,0.4);
+  padding: 5px;
+  border-radius: 5px;
+}
+
+/* Botones */
+.btn-primary {
+  background-color: var(--azul);
+  border-color: var(--azul);
+}
+
+.btn-primary:hover {
+  background-color: var(--dorado);
+  border-color: var(--dorado);
+  color: black;
+}
+
+.btn-success {
+  background-color: var(--dorado);
+  border-color: var(--azul);
+  color: black;
+}
+
+.btn-success:hover {
+  background-color: var(--azul);
+  color: white;
+}
+
+/* Testimonios */
+.border {
+  border-color: var(--dorado) !important;
+}
+
+.shadow-sm {
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15) !important;
+}
+
+/* Cards */
+.card {
+  border: 2px solid var(--azul);
+  background-color: white;
+}
+
+.card-title {
+  color: var(--azul);
+  font-weight: bold;
+}
+
+.card-footer {
+  background: var(--dorado);
+  font-weight: bold;
+}
+
+/* Tabs */
+.nav-tabs .nav-link.active {
+  background-color: var(--dorado);
+  color: black !important;
+  font-weight: bold;
+}
+
+.nav-tabs .nav-link {
+  color: var(--azul);
+  font-weight: 500;
+}
+
+.nav-tabs .nav-link:hover {
+  color: var(--dorado);
+}
+
+/* Offcanvas */
+.offcanvas {
+  background-color: var(--azul);
+  color: white;
+}
+
+/* Sección interactiva */
+#cuadroColor {
+  transition: 0.3s;
+  border: 2px solid var(--azul);
+}
+
+#cuadroColor:hover {
+  border-color: var(--dorado);
+}
+
+/* Footer */
+footer {
+  background-color: var(--azul-oscuro) !important;
+  color: var(--dorado) !important;
+}
+
+footer a {
+  color: var(--dorado) !important;
+}
+
+footer a:hover {
+  color: white !important;
+}
+
+/* Botón flotante WhatsApp */
+.whatsapp-float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 20px;
+  right: 20px;
+  background-color: #25d366;
+  color: white;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 30px;
+  padding-top: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  transition: 0.2s;
+}
+
+.whatsapp-float:hover {
+  transform: scale(1.1);
+}
+
+/* Modal */
+.modal-content {
+  border: 3px solid var(--dorado);
+}
+
+.modal-header {
+  background: var(--azul);
+  color: white;
+}
+
+/* Formulario */
+form input,
+form select,
+form textarea {
+  border: 2px solid var(--azul) !important;
+}
+
+form input:focus,
+form select:focus,
+form textarea:focus {
+  border-color: var(--dorado) !important;
+  box-shadow: 0 0 5px var(--dorado);
+}
+
+/* Tarjeta de IA */
+#card1 {
+  border: 2px solid var(--dorado);
+}
+
+.precio {
+  color: var(--dorado);
+  font-weight: bold;
+}
